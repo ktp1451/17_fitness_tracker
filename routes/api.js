@@ -25,3 +25,5 @@ router.put('/api/workouts/:id', ({ body, params }, res) => {
         res.json(err);
     });
 });
+
+module.exports = router;
